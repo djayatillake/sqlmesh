@@ -59,6 +59,11 @@ setup(
             "google-cloud-bigquery-storage",
         ],
         "clickhouse": ["clickhouse-connect"],
+        "cube": [
+            "openai>=1.0.0",
+            "pydantic>=2.0.0",
+            "python-dotenv>=1.0.0",
+        ],
         "databricks": ["databricks-sql-connector"],
         "dev": [
             "agate==1.7.1",

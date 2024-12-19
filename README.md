@@ -149,6 +149,17 @@ Follow the [quickstart guide](https://sqlmesh.readthedocs.io/en/stable/quickstar
 
 Follow this [example](https://sqlmesh.readthedocs.io/en/stable/examples/incremental_time_full_walkthrough/) to learn how to use SQLMesh in a full walkthrough.
 
+## Optional Extensions
+
+SQLMesh supports several optional extensions that can be installed separately:
+
+- `sqlmesh[athena]`: Support for Amazon Athena
+- `sqlmesh[azuresql]`: Support for Azure SQL
+- `sqlmesh[bigquery]`: Support for Google BigQuery
+- `sqlmesh[clickhouse]`: Support for ClickHouse
+- `sqlmesh[cube]`: Support for generating Cube semantic layer configurations
+- `sqlmesh[databricks]`: Support for Databricks
+
 ## Join Our Community
 Together, we want to build data transformation without the waste. Connect with us in the following ways:
 

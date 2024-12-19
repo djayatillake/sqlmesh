@@ -17,16 +17,6 @@ Please follow the Cube documentation and best practices provided below when gene
 
 {{cube_docs}}
 
-Please generate a Cube YAML configuration that:
-1. Creates appropriate dimensions and measures based on both JSON metadata and SQL definitions
-2. Defines proper join relationships following Cube's relationship types (belongsTo, hasMany, hasOne)
-3. Implements time-based dimensions with appropriate formats
-4. Sets up proper aggregations for metrics using Cube's supported measure types
-5. Uses best practices for Cube modeling as outlined in the documentation
-6. Includes descriptions and documentation for the data model
-7. Uses appropriate types and formats for dimensions and measures
-8. Implements proper naming conventions and structure
-
 The output should be valid YAML that follows Cube's schema and can be directly used in a Cube project.
 
 Input JSON Metadata:
@@ -43,6 +33,6 @@ Make Measures for these cubes and add them to the measures section of the YAML c
 Make Measures for these cubes based on derived fields which use other measures and dimensions as inputs, also.
 Make Views which join the Cubes based on the relationships defined in the JSON metadata, named after the model names.
 
-Don't make Cubes which do joins inside the Cube definition sql using tables that are also used other Cubes, instead make views which join the Cubes.
+Don't make Cubes which do joins inside the Cube definition sql using tables that are also used as other Cubes, instead make views which join the Cubes.
 
 Generate the Cube YAML configuration below:

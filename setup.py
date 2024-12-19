@@ -46,6 +46,7 @@ setup(
         "importlib-metadata; python_version<'3.12'",
         "ipywidgets",
         "jinja2",
+        "numpy<2.0.0",  # Added to ensure compatibility with PyArrow
         "pandas",
         "pydantic",
         "requests",

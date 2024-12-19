@@ -15,7 +15,11 @@ setup(
     author_email="engineering@tobikodata.com",
     license="Apache License 2.0",
     packages=find_packages(include=["sqlmesh", "sqlmesh.*", "web*"]),
-    package_data={"web": ["client/dist/**"], "": ["py.typed"]},
+    package_data={
+        "web": ["client/dist/**"],
+        "": ["py.typed"],
+        "sqlmesh.core.prompts": ["*.txt"]
+    },
     entry_points={
         "console_scripts": [
             "sqlmesh = sqlmesh.cli.main:cli",

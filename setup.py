@@ -6,8 +6,8 @@ from setuptools import find_packages, setup
 description = open("README.md").read() if exists("README.md") else ""
 
 setup(
-    name="sqlmesh",
-    description="",
+    name="sqlmesh-cube",
+    description="SQLMesh extension for generating Cube semantic layer configurations",
     long_description=description,
     long_description_content_type="text/markdown",
     url="https://github.com/TobikoData/sqlmesh",

@@ -14,6 +14,7 @@ setup(
     author="TobikoData Inc.",
     author_email="engineering@tobikodata.com",
     license="Apache License 2.0",
+    version="0.1.1.dev3",
     packages=find_packages(include=["sqlmesh", "sqlmesh.*", "web*"]),
     package_data={
         "web": ["client/dist/**"],
